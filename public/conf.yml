@@ -27,17 +27,14 @@ sections:
     description: vps ultahost cyberpanel
     icon: favicon
     url: https://198.44.140.37:8090/
-    target: newtab
   - title: vps cyberpanel phpmyadmin
     description: vps ultahost cyberpanel phpmyadmin
     icon: far fa-grin-hearts
     url: https://198.44.140.37:8090/dataBases/phpMyAdmin
-    target: newtab
   - title: share hosting ultahost
     description: share hosting ultahost
     icon: far fa-book
     url: https://cp2.ultahost.com:2083/
-    target: newtab
     
 sections:
 - name: Servers
