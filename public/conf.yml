@@ -33,14 +33,13 @@ sections:
     icon: far fa-grin-hearts
     url: https://198.44.140.37:8090/dataBases/phpMyAdmin
     target: newtab
-    - title: share hosting ultahost
+  - title: share hosting ultahost
     description: share hosting ultahost
     icon: far fa-book
     url: https://cp2.ultahost.com:2083/
     target: newtab
     
-
-    sections:
+sections:
 - name: Servers
   icon: fas fa-rocket
   items:
