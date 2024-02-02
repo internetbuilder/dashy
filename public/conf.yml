@@ -15,13 +15,13 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
+- name: Hosting
   icon: fas fa-rocket
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
+  - title: ultahost
+    description: ultahost
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+    url: https://bill.ultahost.com/clientarea.php
     target: newtab
   - title: GitHub
     description: Source Code, Issues and Pull Requests
