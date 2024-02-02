@@ -27,23 +27,19 @@ sections:
     description: vps ultahost cyberpanel
     icon: fas fa-rocket
     url: https://198.44.140.37:8090/
-  - title: vps cyberpanel phpmyadmin
+  - title: vps phpmyadmin
     description: vps ultahost cyberpanel phpmyadmin
     icon: fas fa-rocket
     url: https://198.44.140.37:8090/dataBases/phpMyAdmin
-  - title: share hosting ultahost
+  - title: share hosting
     description: share hosting ultahost
     icon: fas fa-rocket
     url: https://cp2.ultahost.com:2083/
-  - title: cloudron vps congero
+  - title: vps congero
     description: cloudron vps congero
     icon: fas fa-rocket
     url: https://my.istacks.org
-  - title: share hosting ultahost
-    description: share hosting ultahost
-    icon: fas fa-rocket
-    url: https://cp2.ultahost.com:2083/
-  - title: share hosting ultahost
-    description: share hosting ultahost
+  - title: xxx
+    description: xxx
     icon: fas fa-rocket
     url: https://cp2.ultahost.com:2083/
