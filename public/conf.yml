@@ -1,11 +1,11 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashboard
-  description: My dashboard!
+  title: Dashy
+  description: Welcome to your new dashboard!
   navLinks:
   - title: GitHub
-    path: https://github.com/internetbuilder/dashy
+    path: https://github.com/Lissy93/dashy
   - title: Documentation
     path: https://dashy.to/docs
 
@@ -15,37 +15,7 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Hosting
-  icon: fas fa-rocket
-  items:
-  - title: ultahost
-    description: ultahost
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://bill.ultahost.com/clientarea.php
-    target: newtab
-  - title: vps cyberpanel
-    description: vps ultahost cyberpanel
-    icon: favicon
-    url: https://198.44.140.37:8090/
-  - title: vps cyberpanel phpmyadmin
-    description: vps ultahost cyberpanel phpmyadmin
-    icon: far fa-grin-hearts
-    url: https://198.44.140.37:8090/dataBases/phpMyAdmin
-  - title: share hosting ultahost
-    description: share hosting ultahost
-    icon: far fa-book
-    url: https://cp2.ultahost.com:2083/
-    - title: share hosting ultahost
-    description: share hosting ultahost
-    icon: far fa-book
-    url: https://cp2.ultahost.com:2083/
-    - title: share hosting ultahost
-    description: share hosting ultahost
-    icon: far fa-book
-    url: https://cp2.ultahost.com:2083/
-    
-sections:
-- name: Servers
+- name: Getting Started
   icon: fas fa-rocket
   items:
   - title: Dashy Live
