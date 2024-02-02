@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Dashboard
+  description: My dashboard!
   navLinks:
   - title: GitHub
     path: https://github.com/internetbuilder/dashy
@@ -25,23 +25,21 @@ sections:
     target: newtab
   - title: vps cyberpanel
     description: vps ultahost cyberpanel
-    icon: far fa-book
+    icon: fas fa-rocket
     url: https://198.44.140.37:8090/
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - title: vps cyberpanel phpmyadmin
+    description: vps ultahost cyberpanel phpmyadmin
+    icon: fas fa-rocket
+    url: https://198.44.140.37:8090/dataBases/phpMyAdmin
+  - title: share hosting ultahost
+    description: share hosting ultahost
+    icon: fas fa-rocket
+    url: https://cp2.ultahost.com:2083/
+  - title: share hosting ultahost
+    description: share hosting ultahost
+    icon: fas fa-rocket
+    url: https://cp2.ultahost.com:2083/
+  - title: share hosting ultahost
+    description: share hosting ultahost
+    icon: fas fa-rocket
+    url: https://cp2.ultahost.com:2083/
