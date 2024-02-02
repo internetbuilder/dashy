@@ -18,7 +18,7 @@ sections:
 - name: Hosting
   icon: fas fa-rocket
   items:
-  - title: ultahost
+  - title: ultahost panel
     description: ultahost
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://bill.ultahost.com/clientarea.php
@@ -39,7 +39,15 @@ sections:
     description: cloudron vps congero
     icon: fas fa-rocket
     url: https://my.istacks.org
+  - title: ishosting panel
+    description: ishosting panel
+    icon: fas fa-rocket
+    url: https://my.ishosting.com/
+  - title: lightnode panel
+    description: console lightnode.com hosting
+    icon: fas fa-rocket
+    url: https://console.lightnode.com/user/login
   - title: xxx
     description: xxx
     icon: fas fa-rocket
-    url: https://cp2.ultahost.com:2083/
+    url: https://xxx.xxx
