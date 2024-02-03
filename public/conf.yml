@@ -2,7 +2,7 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashboard
-  description: My dashboard!
+  description: My dashboard!!
   navLinks:
   - title: Edit
     path: https://vscode.dev/github.com/internetbuilder/dashy
