@@ -196,6 +196,44 @@ sections:
     url: https://github.com/lissy93/dashy
     statusCheck: true
 
+- name: My Apps
+  icon: fab fa-github-alt
+  displayData:
+    itemSize: small
+    sectionLayout: grid
+    itemCountX: 2
+  items:
+  - title: Issues
+    url: https://github.com/Lissy93/dashy/issues
+    icon: generative
+  - title: Pull Requests
+    url: https://github.com/Lissy93/dashy/pulls
+    icon: generative
+  - title: Releases
+    url: https://github.com/Lissy93/dashy/releases
+    icon: generative
+  - title: Discussions
+    url: https://github.com/Lissy93/dashy/discussions
+    icon: generative
+  - title: Packages
+    url: https://github.com/Lissy93?tab=packages&repo_name=dashy
+    icon: generative
+  - title: Insights
+    url: https://github.com/Lissy93/dashy/pulse
+    icon: generative
+  - title: Wiki
+    url: https://github.com/Lissy93/dashy/wiki
+    icon: generative
+  - title: Security
+    url: https://github.com/Lissy93/dashy/security
+    icon: generative
+  - title: Contributors
+    url: https://github.com/Lissy93/dashy/graphs/contributors
+    icon: generative
+  - title: Actions
+    url: https://github.com/Lissy93/dashy/actions
+    icon: generative
+
 - name: Repo
   icon: fab fa-github-alt
   displayData:
