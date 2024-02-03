@@ -55,6 +55,7 @@ sections:
     url: https://console.lightnode.com/user/login
     target: modal
     statusCheck: true
+  statusCheckInterval: 20
   - title: xxx
     description: xxx
     icon: fas fa-rocket
