@@ -15,23 +15,6 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: My Websites
-  icon: fas fa-rocket
-  items:
-  - title: w3layers.com
-    description: web tools
-    icon: fas fa-rocket
-    url: https://w3layers.com/
-    target: modal
-    statusCheck: true
-  - title: w3layers.com/admin
-    description: username: admin
-    icon: fas fa-rocket
-    url: https://w3layers.com/admin/
-    target: modal
-    statusCheck: true
-
-sections:
 - name: Hosting
   icon: fas fa-rocket
   items:
