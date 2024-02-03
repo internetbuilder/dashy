@@ -253,7 +253,9 @@
   },
   "footer": {
     "dev-by": "",
-    "source-code": ""
+    "licensed-under": "Extra Sauce Studio",
+    "get-the": "Pour en obtenir un",
+    "source-code": "https://jordanbourbonnais.com"
   },
   "interactive-editor": {
     "menu": {
