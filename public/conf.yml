@@ -4,8 +4,8 @@ pageInfo:
   title: Dashboard
   description: My dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/internetbuilder/dashy
+  - title: Edit
+    path: https://vscode.dev/github.com/internetbuilder/dashy
   - title: Documentation
     path: https://dashy.to/docs
 
