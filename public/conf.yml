@@ -12,6 +12,8 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: colorful
+  statusCheck: true
+  statusCheckInterval: 20
 
 # Main content - An array of sections, each containing an array of items
 sections:
