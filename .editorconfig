@@ -20,5 +20,3 @@ indent_size = 2
 # Markdown for docs
 [*.md]
 trim_trailing_whitespace = false
-
-# Licensed under MIT, (C) 2021 Alicia Sykes <https://aliciasykes.com>

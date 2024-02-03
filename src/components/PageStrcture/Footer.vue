@@ -23,10 +23,8 @@ export default {
   name: 'Footer',
   props: {
     text: String,
-    authorName: { type: String, default: 'Alicia Sykes' },
-    authorUrl: { type: String, default: 'https://aliciasykes.com' },
-    license: { type: String, default: 'MIT' },
-    licenseUrl: { type: String, default: 'https://gist.github.com/Lissy93/143d2ee01ccc5c052a17' },
+    authorName: { type: String, default: 'Jordan Bourbonnais' },
+    authorUrl: { type: String, default: 'https://jordanbourbonnais.com' },
     date: { type: String, default: `${new Date().getFullYear()}` },
     showCopyright: { type: Boolean, default: true },
     repoUrl: { type: String, default: 'https://github.com/lissy93/dashy' },
