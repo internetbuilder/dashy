@@ -122,25 +122,25 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 2
+      cols: 1
       collapsed: false
       hideForGuests: false
     items:
       - &ref_8
         title: w3layers.com
-        description: https://w3layers.com
         icon: fas fa-rocket
         url: https://w3layers.com
         target: modal
-        displayData: w3layers.com
-        tags:
-          - w3layerscom
-        provider: Extra Sauce Studio
         statusCheck: true
-        statusCheckUrl: https://w3layers.com
-        statusCheckHeaders: https://w3layers.com
-        statusCheckAcceptCodes: https://w3layers.com
         id: 0_945_wlayerscom
-        subItems: tools
+      - &ref_9
+        title: w3layers.com/admin
+        description: w3layers.com admin
+        icon: fas fa-rocket
+        url: https://w3layers.com/admin
+        target: modal
+        statusCheck: true
+        id: 1_945_admin
     filteredItems:
       - *ref_8
+      - *ref_9
