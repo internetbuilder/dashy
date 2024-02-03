@@ -23,31 +23,38 @@ sections:
     icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
     url: https://bill.ultahost.com/clientarea.php
     target: newtab
+    statusCheck: true
   - title: vps cyberpanel
     description: vps ultahost cyberpanel
     icon: fas fa-rocket
     url: https://198.44.140.37:8090/
+    statusCheck: true
   - title: vps phpmyadmin
     description: vps ultahost cyberpanel phpmyadmin
     icon: fas fa-rocket
     url: https://198.44.140.37:8090/dataBases/phpMyAdmin
+    statusCheck: true
   - title: share hosting
     description: share hosting ultahost
     icon: fas fa-rocket
     url: https://cp2.ultahost.com:2083/
+    statusCheck: true
   - title: vps congero
     description: cloudron vps congero
     icon: fas fa-rocket
     url: https://my.istacks.org
+    statusCheck: true
   - title: ishosting panel
     description: ishosting panel
     icon: fas fa-rocket
     url: https://my.ishosting.com/
+    statusCheck: true
   - title: lightnode panel
     description: console lightnode.com hosting
     icon: fas fa-rocket
     url: https://console.lightnode.com/user/login
     target: modal
+    statusCheck: true
   - title: xxx
     description: xxx
     icon: fas fa-rocket
