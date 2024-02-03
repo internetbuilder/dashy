@@ -62,3 +62,17 @@ sections:
     icon: fas fa-rocket
     url: https://xxx.xxx
 
+sections:
+- name: My Websites
+  icon: fas fa-rocket
+  items:
+  - title: ultahost panel
+  - type: w3layers.com
+    options:
+      domain: w3layers.com
+      apiKey: ea248bd4dd6ed002c3e27cab2accb9f9
+
+  - type: domain-monitor
+    options:
+      domain: example2.com
+      apiKey: ea248bd4dd6ed002c3e27cab2accb9f9
