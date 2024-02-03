@@ -144,14 +144,3 @@ sections:
     filteredItems:
       - *ref_8
       - *ref_9
-- type: embed
-  options:
-    scriptSrc: https://cdn.speedcheck.org/basic/scbjs.min.js
-    html: |
-      <div id="sc-container">
-      <div id="sc-branding" class="sc-bb">
-      <a target="_blank" href="https://www.speedcheck.org/">
-      <img src="https://cdn.speedcheck.org/branding/speedcheck-logo-18.png" alt="Speedcheck"/>
-      </a>
-      </div>
-      </div>
