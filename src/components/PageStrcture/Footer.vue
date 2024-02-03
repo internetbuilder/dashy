@@ -23,8 +23,6 @@ export default {
   name: 'Footer',
   props: {
     text: String,
-    authorName: { type: String, default: 'Jordan Bourbonnais' },
-    authorUrl: { type: String, default: 'https://jordanbourbonnais.com' },
     date: { type: String, default: `${new Date().getFullYear()}` },
     showCopyright: { type: Boolean, default: true },
     repoUrl: { type: String, default: 'https://jordanbourbonnais.com' },
