@@ -30,18 +30,6 @@ sections:
     url: https://w3layers.com/admin/
     target: modal
     statusCheck: true
-  - title: w3layers.com/admin
-    description: username: admin
-    icon: fas fa-rocket
-    url: https://w3layers.com/admin/
-    target: modal
-    statusCheck: true
-  - title: w3layers.com/admin
-    description: username: admin
-    icon: fas fa-rocket
-    url: https://w3layers.com/admin/
-    target: modal
-    statusCheck: true
 
 sections:
 - name: Hosting
