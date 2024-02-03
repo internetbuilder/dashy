@@ -14,13 +14,13 @@ pageInfo:
     path: https://demo.dashy.to
 
 appConfig:
-  theme: dashy-docs
+  theme: nord-frost
   customCss: '@media (min-width: 1780px) { .home .item-group-container:not(.item-size-large) { grid-template-columns: repeat(3, 1fr); } } .home .item-group-container.item-size-large .item-group-grid, .home .item-group-container.orientation-vertical .item-group-grid { display: flex !important; }'
   auth:
     enableGuestAccess: false
     users:
     - user: admin
-      hash: $2y$12$4yU9lmbX8PUukzmVl2TL0OQxNtSvXLTuzNckVU5HdHXuvUv2bm6gK
+      hash: $2y$12$$2y$12$rXJRJ0Kt2q7qO16iEoxqve/VmNalS6LmEMsxK4BDtzZm.mdmwfCj6
       type: admin
   webSearch:
     searchEngine: 'duckduckgo'
