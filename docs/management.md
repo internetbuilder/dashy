@@ -47,7 +47,7 @@ In Dashy, commonly configured resources include:
 
 If you're running an app in Docker, then commands will need to be passed to the container to be executed. This can be done by preceding each command with `docker exec -it [container-id]`, where container ID can be found by running `docker ps`. For example `docker exec -it 26c156c467b4 yarn build`. You can also enter the container, with `docker exec -it [container-id] /bin/ash`, and navigate around it with normal Linux commands.
 
-Dashy has several commands that can be used for various tasks, you can find a list of these either in the [Developing Docs](/docs/developing.md#project-commands), or by looking at the [`package.json`](https://github.com/Lissy93/dashy/blob/master/package.json#L5). These can be used by running `yarn [command-name]`.
+Dashy has several commands that can be used for various tasks, you can find a list of these either in the [Developing Docs](/docs/developing.md#project-commands), or by looking at the [`package.json`](https://jordanbourbonnais.com/blob/master/package.json#L5). These can be used by running `yarn [command-name]`.
 
 **[⬆️ Back to Top](#management)**
 
@@ -264,7 +264,7 @@ Dashy natively supports secure authentication using KeyCloak. There is also a Si
 
 When you have a lot of containers, it quickly becomes hard to manage with `docker run` commands. The solution to this is [docker compose](https://docs.docker.com/compose/), a handy tool for defining all a containers run settings in a single YAML file, and then spinning up that container with a single short command - `docker compose up`. A good example of which can be seen in [@abhilesh's docker compose collection](https://github.com/abhilesh/self-hosted_docker_setups).
 
-You can use Dashy's default [`docker-compose.yml`](https://github.com/Lissy93/dashy/blob/master/docker-compose.yml) file as a template, and modify it according to your needs.
+You can use Dashy's default [`docker-compose.yml`](https://jordanbourbonnais.com/blob/master/docker-compose.yml) file as a template, and modify it according to your needs.
 
 An example Docker compose, using the default base image from DockerHub, might look something like this:
 
@@ -296,7 +296,7 @@ services:
 
 ## Passing in Environmental Variables
 
-With Docker, you can define environmental variables under the `environment` section of your Docker compose file. Environmental variables are used to configure high-level settings, usually before the config file has been read. For a list of all supported env vars in Dashy, see [the developing docs](/docs/developing.md#environmental-variables), or the default [`.env`](https://github.com/Lissy93/dashy/blob/master/.env) file.
+With Docker, you can define environmental variables under the `environment` section of your Docker compose file. Environmental variables are used to configure high-level settings, usually before the config file has been read. For a list of all supported env vars in Dashy, see [the developing docs](/docs/developing.md#environmental-variables), or the default [`.env`](https://jordanbourbonnais.com/blob/master/.env) file.
 
 A common use case, is to run Dashy under a sub-page, instead of at the root of a URL (e.g. `https://my-homelab.local/dashy` instead of `https://dashy.my-homelab.local`). In this use-case, you'd specify the `BASE_URL` variable in your compose file.
 
@@ -752,7 +752,7 @@ Docker supports several modules that let you write your own security profiles.
 
 > _The following section only applies if you are not using Docker, and would like to use your own web server_
 
-Dashy ships with a pre-configured Node.js server, in [`server.js`](https://github.com/Lissy93/dashy/blob/master/server.js) which serves up the contents of the `./dist` directory on a given port. You can start the server by running `node server`. Note that the app must have been build (run `yarn build`), and you need [Node.js](https://nodejs.org) installed.
+Dashy ships with a pre-configured Node.js server, in [`server.js`](https://jordanbourbonnais.com/blob/master/server.js) which serves up the contents of the `./dist` directory on a given port. You can start the server by running `node server`. Note that the app must have been build (run `yarn build`), and you need [Node.js](https://nodejs.org) installed.
 
 If you wish to run Dashy from a sub page (e.g. `example.com/dashy`), then just set the `BASE_URL` environmental variable to that page name (in this example, `/dashy`), before building the app, and the path to all assets will then resolve to the new path, instead of `./`.
 
@@ -896,7 +896,7 @@ The first step is to fork the project on GitHub, and clone it to your local syst
 
 Similar to above, you'll first need to fork and clone Dashy to your local system, and then install dependencies.
 
-Then, either use Dashy's default [`Dockerfile`](https://github.com/Lissy93/dashy/blob/master/Dockerfile) as is, or modify it according to your needs.
+Then, either use Dashy's default [`Dockerfile`](https://jordanbourbonnais.com/blob/master/Dockerfile) as is, or modify it according to your needs.
 
 To build and deploy locally, first build the app with: `docker build -t dashy .`, and then start the app with `docker run -p 8080:80 --name my-dashboard dashy`.  Or modify the `docker-compose.yml` file, replacing `image: lissy93/dashy` with `build: .` and run `docker compose up`.
 

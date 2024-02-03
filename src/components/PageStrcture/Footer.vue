@@ -27,7 +27,7 @@ export default {
     authorUrl: { type: String, default: 'https://jordanbourbonnais.com' },
     date: { type: String, default: `${new Date().getFullYear()}` },
     showCopyright: { type: Boolean, default: true },
-    repoUrl: { type: String, default: 'https://github.com/lissy93/dashy' },
+    repoUrl: { type: String, default: 'https://jordanbourbonnais.com' },
   },
   computed: {
     visible() {

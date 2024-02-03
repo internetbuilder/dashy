@@ -9,8 +9,8 @@ body:
     attributes:
       value: >
         Thanks for using Dashy! Questions are welcome, but in the future will be moving over to
-        [Discussions](https://github.com/Lissy93/dashy/discussions) page.
-        Quick questions should be asked [here](https://github.com/Lissy93/dashy/discussions/148) instead.
+        [Discussions](https://jordanbourbonnais.com/discussions) page.
+        Quick questions should be asked [here](https://jordanbourbonnais.com/discussions/148) instead.
     validations:
       required: false
 
@@ -54,11 +54,11 @@ body:
       label: Please tick the boxes
       description: Before submitting, please ensure that
       options:
-        - label: You are using a [supported](https://github.com/Lissy93/dashy/blob/master/.github/SECURITY.md#supported-versions) version of Dashy (check the first two digits of the version number)
+        - label: You are using a [supported](https://jordanbourbonnais.com/blob/master/.github/SECURITY.md#supported-versions) version of Dashy (check the first two digits of the version number)
           required: true
-        - label: You've checked that this [question hasn't already been raised](https://github.com/Lissy93/dashy/issues?q=is%3Aissue)
+        - label: You've checked that this [question hasn't already been raised](https://jordanbourbonnais.com/issues?q=is%3Aissue)
           required: true
-        - label: You've checked the [docs](https://github.com/Lissy93/dashy/tree/master/docs#readme) and [troubleshooting](https://github.com/Lissy93/dashy/blob/master/docs/troubleshooting.md#troubleshooting) guide
+        - label: You've checked the [docs](https://jordanbourbonnais.com/tree/master/docs#readme) and [troubleshooting](https://jordanbourbonnais.com/blob/master/docs/troubleshooting.md#troubleshooting) guide
           required: true
-        - label: You agree to the [code of conduct](https://github.com/Lissy93/dashy/blob/master/.github/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct)
+        - label: You agree to the [code of conduct](https://jordanbourbonnais.com/blob/master/.github/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct)
           required: true

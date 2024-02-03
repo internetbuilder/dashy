@@ -96,7 +96,7 @@ The image defaults to `:latest`, but you can instead specify a specific version,
 
 Using Docker Compose can be useful for saving your specific config in files, without having to type out a long run command each time. Save compose config as a YAML file, and then run `docker compose up -d` (optionally use the `-f` flag to specify file location, if it isn't located at `./docker-compose.yml`), `-d` is detached mode (not running in the foreground of your terminal). Compose is also useful if you are using clusters, as the format is very similar to stack files, used with Docker Swarm.
 
-The following is a complete example of a [`docker-compose.yml`](https://github.com/Lissy93/dashy/blob/master/docker-compose.yml) for Dashy. Run it as is, or uncomment the additional options you need.
+The following is a complete example of a [`docker-compose.yml`](https://jordanbourbonnais.com/blob/master/docker-compose.yml) for Dashy. Run it as is, or uncomment the additional options you need.
 
 ```yaml
 ---
@@ -131,7 +131,7 @@ services:
 
 You can use a different tag, by for example setting `image: lissy93/dashy:arm64v8`, or pull from GHCR instead by setting `image: ghcr.io/lissy93/dashy`.
 
-If you are building from source, and would like to use one of the [other Dockerfiles](https://github.com/Lissy93/dashy/tree/master/docker), then under `services.dashy` first set `context: .`, then specify the the path to the dockerfile, e.g. `dockerfile: ./docker/Dockerfile-arm32v7`
+If you are building from source, and would like to use one of the [other Dockerfiles](https://jordanbourbonnais.com/tree/master/docker), then under `services.dashy` first set `context: .`, then specify the the path to the dockerfile, e.g. `dockerfile: ./docker/Dockerfile-arm32v7`
 
 ---
 
@@ -180,7 +180,7 @@ dashy should be up within 1-2min after you've started the install task procedure
 
 If you do not want to use Docker, you can run Dashy directly on your host system. For this, you will need both [git](https://git-scm.com/downloads) and the latest or LTS version of [Node.js](https://nodejs.org/) installed, and optionally [yarn](https://yarnpkg.com/)
 
-1. Get Code: `git clone https://github.com/Lissy93/dashy.git` and `cd dashy`
+1. Get Code: `git clone https://jordanbourbonnais.com.git` and `cd dashy`
 2. Configuration: Fill in you're settings in `./public/conf.yml`
 3. Install dependencies: `yarn`
 4. Build: `yarn build`
@@ -192,102 +192,102 @@ If you do not want to use Docker, you can run Dashy directly on your host system
 
 If you don't have a home server, then fear not - Dashy can be deployed to pretty much any cloud provider. The above Docker and NPM guides will work exactly the same on a VPS, but I've also setup some 1-Click deploy links for 10+ of the most common cloud providers, to make things easier. Note that if your instance is exposed to the internet, it will be your responsibility to adequately secure it.
 
-Some hosting providers required a bit of extra configuration, which was why I've made separate branches for deploying to those services (named: [`deploy_cloudflare`](https://github.com/Lissy93/dashy/tree/deploy_cloudflare), [`deploy_digital-ocean`](https://github.com/Lissy93/dashy/tree/deploy_digital-ocean), [`deploy_platform-sh`](https://github.com/Lissy93/dashy/tree/deploy_platform-sh) and [`deploy_render`](https://github.com/Lissy93/dashy/tree/deploy_render)). If there's another cloud service which you'd like 1-click deployment to be supported for, feel free to raise an issue.
+Some hosting providers required a bit of extra configuration, which was why I've made separate branches for deploying to those services (named: [`deploy_cloudflare`](https://jordanbourbonnais.com/tree/deploy_cloudflare), [`deploy_digital-ocean`](https://jordanbourbonnais.com/tree/deploy_digital-ocean), [`deploy_platform-sh`](https://jordanbourbonnais.com/tree/deploy_platform-sh) and [`deploy_render`](https://jordanbourbonnais.com/tree/deploy_render)). If there's another cloud service which you'd like 1-click deployment to be supported for, feel free to raise an issue.
 
 **Note** If you use a static hosting provider, then status checks, writing new config changes to disk from the UI, and triggering a rebuild through the UI will not be available. This is because these features need endpoints provided by Dashy's local Node server. Everything else should work just the same though.
 
 ### Netlify
 
-[![Deploy to Netlify](https://i.ibb.co/GtKMysT/deploy-netlify-button.png)](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
+[![Deploy to Netlify](https://i.ibb.co/GtKMysT/deploy-netlify-button.png)](https://app.netlify.com/start/deploy?repository=https://jordanbourbonnais.com)
 
 [Netlify](https://www.netlify.com/) offers Git-based serverless cloud hosting for web applications. Their services are free to use for personal use, and they support deployment from both public and private repos, as well as direct file upload. The free plan also allows you to use your own custom domain or sub-domain, and is easy to setup.
 
 To deploy Dashy to Netlify, use the following link
 
 ```text
-https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy
+https://app.netlify.com/start/deploy?repository=https://jordanbourbonnais.com
 ```
 
 ### Heroku
 
-[![Deploy to Heroku](https://i.ibb.co/GdMFzBP/deploy-heroku-button.png)](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
+[![Deploy to Heroku](https://i.ibb.co/GdMFzBP/deploy-heroku-button.png)](https://heroku.com/deploy?template=https://jordanbourbonnais.com)
 
 [Heroku](https://www.heroku.com/) is a fully managed cloud platform as a service. You define app settings in a Procfile and app.json, which specifying how the app should be build and how the server should be started. Heroku costs a minimum of $5 for 1,000 dyno hours per month (there are around 720 hours in a  month), and supports custom domains. Heroku's single-dyno service is not as quite performant as some other providers, and the app will have a short wake-up time when not visited for a while
 
 To deploy Dashy to Heroku, use the following link
 
 ```text
-https://heroku.com/deploy?template=https://github.com/Lissy93/dashy
+https://heroku.com/deploy?template=https://jordanbourbonnais.com
 ```
 
 ### Vercel
 
-[![Deploy with Vercel](https://i.ibb.co/mJF3R7m/deploy-vercel-button.png)](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
+[![Deploy with Vercel](https://i.ibb.co/mJF3R7m/deploy-vercel-button.png)](https://vercel.com/new/project?template=https://jordanbourbonnais.com)
 
 [Vercel](https://vercel.com/) is a performance-focused platform for hosting static frontend apps. It comes bundled with some useful tools for monitoring and analyzing application performance and other metrics. Vercel is free for personal use, allows for custom domains and has very reasonable limits.
 
 To deploy Dashy to Vercel, use the following link
 
 ```text
-https://vercel.com/new/project?template=https://github.com/lissy93/dashy
+https://vercel.com/new/project?template=https://jordanbourbonnais.com
 ```
 
 ### DigitalOcean
 
-[![Deploy to DO](https://i.ibb.co/PFt0PkB/deploy-digital-ocean-button.png)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/lissy93/dashy/tree/deploy_digital-ocean&refcode=3838338e7f79)
+[![Deploy to DO](https://i.ibb.co/PFt0PkB/deploy-digital-ocean-button.png)](https://cloud.digitalocean.com/apps/new?repo=https://jordanbourbonnais.com/tree/deploy_digital-ocean&refcode=3838338e7f79)
 
 [DigitalOcean](https://www.digitalocean.com/) is a cloud service providing affordable developer-friendly virtual machines from $5/month. But they also have an app platform, where you can run web apps, static sites, APIs and background workers. CDN-backed static sites are free for personal use.
 
 ```text
-https://cloud.digitalocean.com/apps/new?repo=https://github.com/lissy93/dashy/tree/deploy_digital-ocean
+https://cloud.digitalocean.com/apps/new?repo=https://jordanbourbonnais.com/tree/deploy_digital-ocean
 ```
 
 ### Google Cloud Platform
 
-[![Run on Google Cloud](https://i.ibb.co/LkvHttd/deploy-google-cloud-button.png)](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
+[![Run on Google Cloud](https://i.ibb.co/LkvHttd/deploy-google-cloud-button.png)](https://deploy.cloud.run/?git_repo=https://jordanbourbonnais.com.git)
 
 [Cloud Run](https://cloud.google.com/run/) is a service offered by [Google Cloud](https://cloud.google.com/). It's a fully managed serverless platform, for developing and deploying highly scalable containerized applications. Similar to AWS and Azure, GCP offers a wide range of cloud services, which are billed on a pay‐per‐use basis, but Cloud Run has a [free tier](https://cloud.google.com/run/pricing) offering 180,000 vCPU-seconds, 360,000 GiB-seconds, and 2 million requests per month.
 
 To deploy Dashy to GCP, use the following link
 
 ```text
-https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git
+https://deploy.cloud.run/?git_repo=https://jordanbourbonnais.com.git
 ```
 
 ### Platform.sh
 
-[![Deploy to Platform.sh](https://i.ibb.co/nPnJgJP/deploy-platform-sh-button.png)](https://console.platform.sh/projects/create-project/?template=https://github.com/lissy93/dashy&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/lissy93/dashy)
+[![Deploy to Platform.sh](https://i.ibb.co/nPnJgJP/deploy-platform-sh-button.png)](https://console.platform.sh/projects/create-project/?template=https://jordanbourbonnais.com&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://jordanbourbonnais.com)
 
 [Platform.sh](https://platform.sh) is an end-to-end solution for developing and deploying applications. It is geared towards enterprise users with large teams, and focuses on allowing applications to scale up and down. Unlike the above providers, Platform.sh is not free, although you can deploy a test app to it without needing a payment method
 
 To deploy Dashy to Platform.sh, use the following link
 
 ```text
-https://console.platform.sh/projects/create-project/?template=https://github.com/lissy93/dashy
+https://console.platform.sh/projects/create-project/?template=https://jordanbourbonnais.com
 ```
 
 ### Render
 
-[![Deploy to Render](https://i.ibb.co/QXNCbxT/deploy-render-button.png)](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
+[![Deploy to Render](https://i.ibb.co/QXNCbxT/deploy-render-button.png)](https://render.com/deploy?repo=https://jordanbourbonnais.com/tree/deploy_render)
 
 [Render](https://render.com) is cloud provider that provides easy deployments for static sites, Docker apps, web services, databases and background workers. Render is great for developing applications, and very easy to use. Static sites are free, and services start at $7/month. Currently there are only 2 server locations - Oregon, USA and Frankfurt, Germany. For more info, see the [Render Docs](https://render.com/docs)
 
 To deploy Dashy to Render, use the following link
 
 ```text
-https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render
+https://render.com/deploy?repo=https://jordanbourbonnais.com/tree/deploy_render
 ```
 
 ### Scalingo
 
-[![Deploy on Scalingo](https://i.ibb.co/nj0KxyH/deploy-scalingo-button.png)](https://my.scalingo.com/deploy?source=https://github.com/lissy93/dashy#master)
+[![Deploy on Scalingo](https://i.ibb.co/nj0KxyH/deploy-scalingo-button.png)](https://my.scalingo.com/deploy?source=https://jordanbourbonnais.com#master)
 
 [Scalingo](https://scalingo.com/) is a scalable container-based cloud platform as a service. It's focus is on compliance and uptime, and is geared towards enterprise users. Scalingo is also not free, although they do have a 3-day free trial that does not require a payment method.
 
 To deploy Dashy to Scalingo, use the following link
 
 ```text
-https://my.scalingo.com/deploy?source=https://github.com/lissy93/dashy#master
+https://my.scalingo.com/deploy?source=https://jordanbourbonnais.com#master
 ```
 
 ### Play-with-Docker

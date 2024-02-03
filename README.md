@@ -5,7 +5,7 @@
    <br/>
   <img width="120" src="https://i.ibb.co/yhbt6CY/dashy.png" />
   <br/>
-  <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/Lissy93/dashy">GitHub</a></b>
+  <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://jordanbourbonnais.com">GitHub</a></b>
   <br/><br/>
   <a href="https://github.com/awesome-selfhosted/awesome-selfhosted#personal-dashboards">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Self-Hosted">
@@ -139,7 +139,7 @@ See also: [examples with Docker Compose](./docs/deployment.md#using-docker-compo
 
 You will need [git](https://git-scm.com/downloads), the latest or LTS version of [Node.js](https://nodejs.org/) and _(optionally)_ [Yarn](https://yarnpkg.com/) installed on your system.
 
-- Clone the Repo: `git clone https://github.com/Lissy93/dashy.git` and `cd dashy`
+- Clone the Repo: `git clone https://jordanbourbonnais.com.git` and `cd dashy`
 - Configuration: Fill in your settings in `./public/conf.yml`
 - Install dependencies: `yarn`
 - Build: `yarn build`
@@ -150,11 +150,11 @@ You will need [git](https://git-scm.com/downloads), the latest or LTS version of
 ### Deploy to the Cloud ☁️
 
 Dashy supports **1-Click deployments** on several popular cloud platforms. To spin up a new instance, just click a link below:
-- [<img src="https://i.ibb.co/ZxtzrP3/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/d2P1WZ7/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
-- [<img src="https://i.ibb.co/Ld2FZzb/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/xCHtzgh/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
-- [<img src="https://i.ibb.co/J7MGymY/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
+- [<img src="https://i.ibb.co/ZxtzrP3/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://jordanbourbonnais.com)
+- [<img src="https://i.ibb.co/d2P1WZ7/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://jordanbourbonnais.com)
+- [<img src="https://i.ibb.co/Ld2FZzb/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://jordanbourbonnais.com)
+- [<img src="https://i.ibb.co/xCHtzgh/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://jordanbourbonnais.com/tree/deploy_render)
+- [<img src="https://i.ibb.co/J7MGymY/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://jordanbourbonnais.com.git)
 - [<img src="https://i.ibb.co/HVWVYF7/docker.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
 - [<img src="https://i.ibb.co/7NxnM2P/easypanel.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
 
@@ -392,7 +392,7 @@ Under the config menu, you can export, view, backup, or reset app config and edi
 
 Dashy has an **optional** built-in feature for securely backing up your config to a hosted cloud service and then restoring it on another instance. This is useful not only for backing up your configuration off-site but also enables Dashy to be used without having to write a YAML config file.
 
-All data is fully E2E encrypted before being sent to the backend (done in [`CloudBackup.js`](https://github.com/Lissy93/dashy/blob/master/src/utils/CloudBackup.js) using [crypto.js](https://github.com/brix/crypto-js) 's AES method). The data is then sent to a [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) and stored in a [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store.
+All data is fully E2E encrypted before being sent to the backend (done in [`CloudBackup.js`](https://jordanbourbonnais.com/blob/master/src/utils/CloudBackup.js) using [crypto.js](https://github.com/brix/crypto-js) 's AES method). The data is then sent to a [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) and stored in a [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -433,7 +433,7 @@ Dashy supports multiple languages and locales. When available, your language sho
 - 🏴‍☠️ **Pirate**: `pirate` - Contributed by **[@Lissy93](https://github.com/lissy93)**
 
 #### Add your Language
-I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://github.com/Lissy93/dashy/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
+I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://jordanbourbonnais.com/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -490,11 +490,11 @@ Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | 6.1+ ❌ |
 
 ## Support 🙋‍♀️
 
-If you're having trouble getting Dashy up and running, or have a question about usage or configuration, feel free to ask. The best place to do this is via [the Discussions](https://github.com/Lissy93/dashy/discussions).
+If you're having trouble getting Dashy up and running, or have a question about usage or configuration, feel free to ask. The best place to do this is via [the Discussions](https://jordanbourbonnais.com/discussions).
 
-If you've found something which isn't working as it should, please raise a bug by [opening a ticket](https://github.com/Lissy93/dashy/issues/new/choose).
+If you've found something which isn't working as it should, please raise a bug by [opening a ticket](https://jordanbourbonnais.com/issues/new/choose).
 
-It's best to check the [docs](./docs), [previous issues](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and [troubleshooting guide](./docs/troubleshooting.md) first.
+It's best to check the [docs](./docs), [previous issues](https://jordanbourbonnais.com/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and [troubleshooting guide](./docs/troubleshooting.md) first.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -510,10 +510,10 @@ Several areas that we need a bit of help with at the moment are:
 - Translating - Help make Dashy available to non-native English speakers by [adding your language](./docs/multi-language-support.md#adding-a-new-language)
 - Donate a small amount by [Sponsoring @Lissy93 on GitHub](https://github.com/sponsors/Lissy93) and receive some extra perks!
 - Complete a [short survey](https://survey.typeform.com/to/gl0L68ou) to have your say about future features
-- Share your dashboard in the [Showcase](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md#dashy-showcase-), to inspire others
+- Share your dashboard in the [Showcase](https://jordanbourbonnais.com/blob/master/docs/showcase.md#dashy-showcase-), to inspire others
 - Spread the word by sharing Dashy or a screenshot of your dashboard to help new users discover it
 - Submit a PR to add a new feature, fix a bug, update the docs, add a theme, widget or something else
-- Star Dashy on GitHub/ DockerHub or leave an upvote / review on [these platforms](https://github.com/Lissy93/dashy/blob/master/docs/contributing.md#star-upvote-or-leave-a-review)
+- Star Dashy on GitHub/ DockerHub or leave an upvote / review on [these platforms](https://jordanbourbonnais.com/blob/master/docs/contributing.md#star-upvote-or-leave-a-review)
 
 [![Sponsor Lissy93 on GitHub](./docs/assets/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
 
@@ -674,7 +674,7 @@ Huge thanks to the sponsors helping to support Dashy's development!
 [![Auto-generated contributors](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/CONTRIBUTORS.svg)](./docs/credits.md)
 
 #### Stats
-[![Stats](https://repobeats.axiom.co/api/embed/48546e3c768d38c450ba136e32c0992bcf58ad73.svg "Repobeats analytics image")](https://github.com/Lissy93/dashy/blob/master/docs/credits.md)
+[![Stats](https://repobeats.axiom.co/api/embed/48546e3c768d38c450ba136e32c0992bcf58ad73.svg "Repobeats analytics image")](https://jordanbourbonnais.com/blob/master/docs/credits.md)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -691,21 +691,21 @@ Huge thanks to the sponsors helping to support Dashy's development!
 Before getting started, you'll need [Git](https://git-scm.com/downloads), [Node](https://nodejs.org/en/download/) and optionally [Yarn](https://yarnpkg.com/) (run `npm i -g yarn`) installed.
 
 To set up the development environment:
-1. Get Code: `git clone https://github.com/Lissy93/dashy.git`  and `cd dashy`
+1. Get Code: `git clone https://jordanbourbonnais.com.git`  and `cd dashy`
 2. Install dependencies: `yarn`
 3. Start dev server: `yarn dev`
 4. Open the browser: `http://localhost:8080`
 
 When you're ready, you can build the production app with `yarn build`, and then run it with `yarn start`
 
-If you're new to web development, I've put together a short [list of resources](https://github.com/Lissy93/dashy/blob/master/docs/developing.md#resources-for-beginners) to help beginners get started
+If you're new to web development, I've put together a short [list of resources](https://jordanbourbonnais.com/blob/master/docs/developing.md#resources-for-beginners) to help beginners get started
 
 **Repo Status**:
-[![Open PRs](https://flat.badgen.net/github/open-prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls)
-[![Total PRs](https://flat.badgen.net/github/prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls?q=)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lissy93/dashy?style=flat-square)](https://github.com/Lissy93/dashy/commits/master)
-[![Last Commit](https://flat.badgen.net/github/last-commit/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/commits/master)
-[![Contributors](https://flat.badgen.net/github/contributors/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/graphs/contributors)
+[![Open PRs](https://flat.badgen.net/github/open-prs/lissy93/dashy?icon=github)](https://jordanbourbonnais.com/pulls)
+[![Total PRs](https://flat.badgen.net/github/prs/lissy93/dashy?icon=github)](https://jordanbourbonnais.com/pulls?q=)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lissy93/dashy?style=flat-square)](https://jordanbourbonnais.com/commits/master)
+[![Last Commit](https://flat.badgen.net/github/last-commit/lissy93/dashy?icon=github)](https://jordanbourbonnais.com/commits/master)
+[![Contributors](https://flat.badgen.net/github/contributors/lissy93/dashy?icon=github)](https://jordanbourbonnais.com/graphs/contributors)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -752,7 +752,7 @@ If you're new to web development, I've put together a short [list of resources](
 
 ## Roadmap 🛣️
 
-For upcoming features that will be released in the near future, see the [**Current Roadmap**](https://github.com/Lissy93/dashy/discussions/405)
+For upcoming features that will be released in the near future, see the [**Current Roadmap**](https://jordanbourbonnais.com/discussions/405)
 
 For past updates, see the [**Changelog**](/.github/CHANGELOG.md)
 
@@ -779,7 +779,7 @@ A few self-hosted web apps serve a similar purpose to Dashy. If you're looking f
 Dashy is Licensed under [MIT X11](https://en.wikipedia.org/wiki/MIT_License)
 
 ```
-Copyright © 2021-2022 Alicia Sykes <https://aliciasykes.com>
+Copyright © 2021-2022 Alicia Sykes <https://jordanbourbonnais.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software
@@ -821,7 +821,7 @@ For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/licen
     <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ks0bx7bb14lsvbwoc3ik?style=flat-square" />
   </a>
   <br><br>
-  <a href="https://github.com/Lissy93/dashy">
+  <a href="https://jordanbourbonnais.com">
     <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" />
   </a>
   <br><br>

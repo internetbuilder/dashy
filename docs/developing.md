@@ -29,7 +29,7 @@ You will need either the latest or LTS version of **[Node.js](https://nodejs.org
 
 ### Running the Project
 
-1. Get Code: `git clone https://github.com/Lissy93/dashy.git`
+1. Get Code: `git clone https://jordanbourbonnais.com.git`
 2. Navigate into the directory: `cd dashy`
 3. Install dependencies: `yarn`
 4. Start dev server: `yarn dev`
@@ -51,7 +51,7 @@ Dashy should now be being served on <http://localhost:8080/>. Hot reload is enab
 
 #### Utils and Checks
 
-- **`yarn validate-config`** - If you have quite a long configuration file, you may wish to check that it's all good to go, before deploying the app. This can be done with `yarn validate-config` or `docker exec -it [container-id] yarn validate-config`. Your config file needs to be in `/public/conf.yml` (or within your Docker container at `/app/public/conf.yml`). This will first check that your YAML is valid, and then validates it against Dashy's [schema](https://github.com/Lissy93/dashy/blob/master/src/utils/ConfigSchema.js).
+- **`yarn validate-config`** - If you have quite a long configuration file, you may wish to check that it's all good to go, before deploying the app. This can be done with `yarn validate-config` or `docker exec -it [container-id] yarn validate-config`. Your config file needs to be in `/public/conf.yml` (or within your Docker container at `/app/public/conf.yml`). This will first check that your YAML is valid, and then validates it against Dashy's [schema](https://jordanbourbonnais.com/blob/master/src/utils/ConfigSchema.js).
 - **`yarn health-check`** - Checks that the application is up and running on it's specified port, and outputs current status and response times. Useful for integrating into your monitoring service, if you need to maintain high system availability
 
 #### Alternate Start Commands
@@ -70,7 +70,7 @@ Dashy should now be being served on <http://localhost:8080/>. Hot reload is enab
 
 All environmental variables are optional. Currently there are not many environmental variables used, as most of the user preferences are stored under `appConfig` in the `conf.yml` file.
 
-You can set variables either in your environment, or using the [`.env`](https://github.com/Lissy93/dashy/blob/master/.env) file.
+You can set variables either in your environment, or using the [`.env`](https://jordanbourbonnais.com/blob/master/.env) file.
 
 - `NODE_ENV` - Current environment, can be either development, production or test
 - `PORT` - The port to expose the running application on

@@ -4,15 +4,15 @@
    <br/>
   <img width="120" src="https://i.ibb.co/yhbt6CY/dashy.png" />
   <br/>
-  <b><a href="https://github.com/Lissy93/dashy/blob/master/docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="https://github.com/Lissy93/dashy/blob/master/docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/Lissy93/dashy">GitHub</a></b>
+  <b><a href="https://jordanbourbonnais.com/blob/master/docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="https://jordanbourbonnais.com/blob/master/docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://jordanbourbonnais.com">GitHub</a></b>
   <br/><br/>
   <a href="https://github.com/awesome-selfhosted/awesome-selfhosted#personal-dashboards">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Self-Hosted">
   </a>
-  <a href="https://github.com/Lissy93/dashy/blob/master/LICENSE">
+  <a href="https://jordanbourbonnais.com/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-0aa8d2?logo=opensourceinitiative&logoColor=fff" alt="License MIT">
   </a>
-  <a href="https://github.com/Lissy93/dashy/blob/master/.github/CHANGELOG.md">
+  <a href="https://jordanbourbonnais.com/blob/master/.github/CHANGELOG.md">
     <img src="https://img.shields.io/github/package-json/v/lissy93/dashy?logo=azurepipelines&amp;color=0aa8d2" alt="Current Version">
   </a>
   <a href="https://hub.docker.com/r/lissy93/dashy">
@@ -53,7 +53,7 @@
 
 **Live Instances**: [Demo 1](https://demo.dashy.to) (Live Demo) ┆ [Demo 2](https://live.dashy.to) (Dashy Links) ┆ [Demo 3](https://dev.dashy.to) (Dev Preview)
 
-**Screenshots**: Checkout the [Showcase](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md), to see example dashboards from the community
+**Screenshots**: Checkout the [Showcase](https://jordanbourbonnais.com/blob/master/docs/showcase.md), to see example dashboards from the community
 
 **Spin up your own demo**: [![One-Click Deploy with PWD](https://img.shields.io/badge/Play--with--Docker-Deploy-2496ed?style=flat-square&logo=docker)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:80 lissy93/dashy`](./docs/quick-start.md)
 
@@ -71,7 +71,7 @@
 
 To deploy Dashy with Docker, just run `docker run -p 8080:80 lissy93/dashy`, then open `http://localhost:8080`
 
-For full list of options and a Docker compose file, see the [Deployment Docs](https://github.com/Lissy93/dashy/blob/master/docs/deployment.md).
+For full list of options and a Docker compose file, see the [Deployment Docs](https://jordanbourbonnais.com/blob/master/docs/deployment.md).
 
 Dashy can also be run on bare metal using Node.js, or deployed to a cloud service, using the 1-Click deploy script.
 
@@ -80,30 +80,30 @@ Dashy can also be run on bare metal using Node.js, or deployed to a cloud servic
 ## Documentation 📝
 
 #### Running Dashy
-- **[Quick Start](https://github.com/Lissy93/dashy/blob/master/docs/quick-start.md)** - TDLR guide on getting Dashy up and running
-- **[Deployment](https://github.com/Lissy93/dashy/blob/master/docs/deployment.md)** - Full guide on deploying Dashy either locally or online
-- **[Configuring](https://github.com/Lissy93/dashy/blob/master/docs/configuring.md)** - Complete list of all available options in the config file
-- **[App Management](https://github.com/Lissy93/dashy/blob/master/docs/management.md)** - Managing your app, updating, security, web server configuration, etc
-- **[Troubleshooting](https://github.com/Lissy93/dashy/blob/master/docs/troubleshooting.md)** - Common errors and problems, and how to fix them
+- **[Quick Start](https://jordanbourbonnais.com/blob/master/docs/quick-start.md)** - TDLR guide on getting Dashy up and running
+- **[Deployment](https://jordanbourbonnais.com/blob/master/docs/deployment.md)** - Full guide on deploying Dashy either locally or online
+- **[Configuring](https://jordanbourbonnais.com/blob/master/docs/configuring.md)** - Complete list of all available options in the config file
+- **[App Management](https://jordanbourbonnais.com/blob/master/docs/management.md)** - Managing your app, updating, security, web server configuration, etc
+- **[Troubleshooting](https://jordanbourbonnais.com/blob/master/docs/troubleshooting.md)** - Common errors and problems, and how to fix them
 
 #### Feature Docs
-- **[Authentication](https://github.com/Lissy93/dashy/blob/master/docs/authentication.md)** - Guide to setting up authentication to protect your dashboard
-- **[Alternate Views](https://github.com/Lissy93/dashy/blob/master/docs/alternate-views.md)** - Outline of available pages / views and item opening methods
-- **[Backup & Restore](https://github.com/Lissy93/dashy/blob/master/docs/backup-restore.md)** - Guide to backing up config with Dashy's cloud sync feature
-- **[Icons](https://github.com/Lissy93/dashy/blob/master/docs/icons.md)** - Outline of all available icon types for sections and items, with examples
-- **[Language Switching](https://github.com/Lissy93/dashy/blob/master/docs/multi-language-support.md)** - Details on how to switch language, or add a new locale
-- **[Status Indicators](https://github.com/Lissy93/dashy/blob/master/docs/status-indicators.md)** - Using Dashy to monitor uptime and status of your apps
-- **[Searching  & Shortcuts](https://github.com/Lissy93/dashy/blob/master/docs/searching.md)** - Searching, launching methods + keyboard shortcuts
-- **[Theming](https://github.com/Lissy93/dashy/blob/master/docs/theming.md)** - Complete guide to applying, writing and modifying themes + styles
-- **[Widgets](https://github.com/Lissy93/dashy/blob/master/docs/widgets.md)** - List of all dynamic content widgets, with usage guides and examples
+- **[Authentication](https://jordanbourbonnais.com/blob/master/docs/authentication.md)** - Guide to setting up authentication to protect your dashboard
+- **[Alternate Views](https://jordanbourbonnais.com/blob/master/docs/alternate-views.md)** - Outline of available pages / views and item opening methods
+- **[Backup & Restore](https://jordanbourbonnais.com/blob/master/docs/backup-restore.md)** - Guide to backing up config with Dashy's cloud sync feature
+- **[Icons](https://jordanbourbonnais.com/blob/master/docs/icons.md)** - Outline of all available icon types for sections and items, with examples
+- **[Language Switching](https://jordanbourbonnais.com/blob/master/docs/multi-language-support.md)** - Details on how to switch language, or add a new locale
+- **[Status Indicators](https://jordanbourbonnais.com/blob/master/docs/status-indicators.md)** - Using Dashy to monitor uptime and status of your apps
+- **[Searching  & Shortcuts](https://jordanbourbonnais.com/blob/master/docs/searching.md)** - Searching, launching methods + keyboard shortcuts
+- **[Theming](https://jordanbourbonnais.com/blob/master/docs/theming.md)** - Complete guide to applying, writing and modifying themes + styles
+- **[Widgets](https://jordanbourbonnais.com/blob/master/docs/widgets.md)** - List of all dynamic content widgets, with usage guides and examples
 
 #### Development and Contributing 
-- **[Developing](https://github.com/Lissy93/dashy/blob/master/docs/developing.md)** - Running Dashy development server locally, and general workflow
-- **[Development Guides](https://github.com/Lissy93/dashy/blob/master/docs/development-guides.md)** - Common development tasks, to help new contributors
-- **[Contributing](https://github.com/Lissy93/dashy/blob/master/docs/contributing.md)** - How you can help keep Dashy alive
-- **[Showcase](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md)** - See how others are using Dashy, and share your dashboard
-- **[Credits](https://github.com/Lissy93/dashy/blob/master/docs/credits.md)** - List of people and projects that have made Dashy possible
-- **[Release Workflow](https://github.com/Lissy93/dashy/blob/master/docs/release-workflow.md)** - Info about releases, CI and automated tasks
+- **[Developing](https://jordanbourbonnais.com/blob/master/docs/developing.md)** - Running Dashy development server locally, and general workflow
+- **[Development Guides](https://jordanbourbonnais.com/blob/master/docs/development-guides.md)** - Common development tasks, to help new contributors
+- **[Contributing](https://jordanbourbonnais.com/blob/master/docs/contributing.md)** - How you can help keep Dashy alive
+- **[Showcase](https://jordanbourbonnais.com/blob/master/docs/showcase.md)** - See how others are using Dashy, and share your dashboard
+- **[Credits](https://jordanbourbonnais.com/blob/master/docs/credits.md)** - List of people and projects that have made Dashy possible
+- **[Release Workflow](https://jordanbourbonnais.com/blob/master/docs/release-workflow.md)** - Info about releases, CI and automated tasks
 
 ---
 
@@ -112,7 +112,7 @@ Dashy can also be run on bare metal using Node.js, or deployed to a cloud servic
 Dashy is Licensed under [MIT X11](https://en.wikipedia.org/wiki/MIT_License)
 
 ```
-Copyright © 2021 Alicia Sykes <https://aliciasykes.com>
+Copyright © 2021 Alicia Sykes <https://jordanbourbonnais.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software

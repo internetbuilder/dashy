@@ -252,10 +252,8 @@
     }
   },
   "footer": {
-    "dev-by": "Développé par",
-    "licensed-under": "Sous licence",
-    "get-the": "Obtenir le",
-    "source-code": "code source"
+    "dev-by": "",
+    "source-code": ""
   },
   "interactive-editor": {
     "menu": {

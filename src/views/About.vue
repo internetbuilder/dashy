@@ -14,7 +14,7 @@
     <section>
       <h2>Source</h2>
       <p>
-        Dashy's source is available through <a href="https://github.com/lissy93/dashy">GitHub</a>,
+        Dashy's source is available through <a href="https://jordanbourbonnais.com">GitHub</a>,
         and the Docker image is on <a href="https://hub.docker.com/r/lissy93/dashy">DockerHub</a>.
       </p>
     </section>
@@ -32,16 +32,16 @@
       <p>
         If you need any help deploying, using, or developing Dashy, feel free to
         <a href="https://git.io/JnqiA">open a support ticket</a> or start a
-        <a href="https://github.com/Lissy93/dashy/discussions">discussion</a> on GitHub.
+        <a href="https://jordanbourbonnais.com/discussions">discussion</a> on GitHub.
       </p>
     </section>
 
     <section>
       <h2>About the Author</h2>
-      <a href="https://aliciasykes.com">
+      <a href="https://jordanbourbonnais.com">
         <img class="aht-pic" src="https://i.ibb.co/FnxqTfx/aht-bot-round.png" alt="Alicia Sykes">
       </a>
-      Dashy is developed an maintained by <a href="https://aliciasykes.com">Alicia Sykes</a>
+      Dashy is developed an maintained by <a href="https://jordanbourbonnais.com">Alicia Sykes</a>
       (<a href="https://github.com/lissy93">@Lissy93</a>), with support from the community.
       <ul>
         <li><b>PGP Key</b> - <a href="https://keybase.io/aliciasykes/pgp_keys.asc?fingerprint=0688f8d34587d954e9e51fb8fedb68f55c0283a7"><code>0688 F8D3 4587 D954 E9E5  1FB8 FEDB 68F5 5C02 83A7</code></a></li>
@@ -54,7 +54,7 @@
     <section class="license">
       <h2>License</h2>
       <code>
-        Copyright © 2021 Alicia Sykes (https://aliciasykes.com)
+        Copyright © 2021 Alicia Sykes (https://jordanbourbonnais.com)
       </code>
       <br><br>
       <code>

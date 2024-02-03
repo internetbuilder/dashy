@@ -1,4 +1,4 @@
-## ✨ 2.1.1 Improvements [PR #775](https://github.com/Lissy93/dashy/pull/775)
+## ✨ 2.1.1 Improvements [PR #775](https://jordanbourbonnais.com/pull/775)
 
 #### Bug Fixes 🐛
 

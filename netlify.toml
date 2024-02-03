@@ -14,7 +14,7 @@
 [template.environment]
   STATUSKIT_PAGE_TITLE = "Dashy"
   STATUSKIT_COMPANY_LOGO = "https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/logo.png"
-  STATUSKIT_SUPPORT_CONTACT_LINK = "https://github.com/lissy93/dashy"
+  STATUSKIT_SUPPORT_CONTACT_LINK = "https://jordanbourbonnais.com"
   STATUSKIT_RESOURCES_LINK = "https://dashy.to/docs"
 
 # Redirect the Node endpoints to serverless functions

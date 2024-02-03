@@ -9,30 +9,30 @@
       <hr />
       <!-- Getting Help -->
       <h3>{{ $t('app-info.help-support') }}</h3>
-      {{ $t('app-info.help-support-description') }} <a href="https://github.com/Lissy93/dashy/discussions">{{ $t('app-info.help-support-discussions') }}</a>
+      {{ $t('app-info.help-support-description') }} <a href="https://jordanbourbonnais.com/discussions">{{ $t('app-info.help-support-discussions') }}</a>
       <!-- Please help out :) -->
       <h3>{{ $t('app-info.support-dashy') }}</h3>
-      {{ $t('app-info.support-dashy-description') }} <a href="https://github.com/Lissy93/dashy/blob/master/docs/contributing.md">{{ $t('app-info.support-dashy-link') }}</a>.
+      {{ $t('app-info.support-dashy-description') }} <a href="https://jordanbourbonnais.com/blob/master/docs/contributing.md">{{ $t('app-info.support-dashy-link') }}</a>.
       <!-- Bug Reports -->
       <h3>{{ $t('app-info.report-bug') }}</h3>
-      {{ $t('app-info.report-bug-description') }} <a href="https://github.com/Lissy93/dashy/issues/new/choose">{{ $t('app-info.report-bug-link') }}</a>.
+      {{ $t('app-info.report-bug-description') }} <a href="https://jordanbourbonnais.com/issues/new/choose">{{ $t('app-info.report-bug-link') }}</a>.
       <!-- Source and Docs Links -->
       <h3>{{ $t('app-info.more-info') }}</h3>
-      {{ $t('app-info.source') }}: <a href="https://github.com/lissy93/dashy">github.com/lissy93/dashy</a><br>
+      {{ $t('app-info.source') }}: <a href="https://jordanbourbonnais.com">github.com/lissy93/dashy</a><br>
       {{ $t('app-info.documentation') }}: <a href="https://dashy.to/docs">dashy.to/docs</a>
       <!-- Privacy & Security -->
       <h3>{{ $t('app-info.privacy-and-security') }}</h3>
-      {{ $t('app-info.privacy-and-security-l1') }} <a href="https://github.com/Lissy93/dashy/blob/master/docs/privacy.md">{{ $t('app-info.privacy-and-security-privacy-policy') }}</a>.<br>
+      {{ $t('app-info.privacy-and-security-l1') }} <a href="https://jordanbourbonnais.com/blob/master/docs/privacy.md">{{ $t('app-info.privacy-and-security-privacy-policy') }}</a>.<br>
       {{ $t('app-info.privacy-and-security-advice') }}
-      <a href="https://github.com/Lissy93/dashy/blob/master/docs/management.md">{{ $t('app-info.privacy-and-security-advice-link') }}</a>.<br>
+      <a href="https://jordanbourbonnais.com/blob/master/docs/management.md">{{ $t('app-info.privacy-and-security-advice-link') }}</a>.<br>
       {{ $t('app-info.privacy-and-security-security-issue') }}
-      <a href="https://github.com/Lissy93/dashy/blob/master/.github/SECURITY.md">{{ $t('app-info.privacy-and-security-security-policy') }}</a>
+      <a href="https://jordanbourbonnais.com/blob/master/.github/SECURITY.md">{{ $t('app-info.privacy-and-security-security-policy') }}</a>
       <!-- License -->
       <h3>{{ $t('app-info.license') }}</h3>
-      {{ $t('app-info.license-under') }} <a href="https://github.com/Lissy93/dashy/blob/master/LICENSE">MIT X11</a>.
-      Copyright <a href="https://aliciasykes.com">Alicia Sykes</a> © 2021.<br>
-      {{ $t('app-info.licence-third-party') }} <a href="https://github.com/Lissy93/dashy/blob/master/.github/LEGAL.md">{{ $t('app-info.licence-third-party-link') }}</a>.<br>
-      {{ $t('app-info.list-contributors') }} <a href="https://github.com/Lissy93/dashy/blob/master/docs/credits.md">{{ $t('app-info.list-contributors-link') }}</a>.
+      {{ $t('app-info.license-under') }} <a href="https://jordanbourbonnais.com/blob/master/LICENSE">MIT X11</a>.
+      Copyright <a href="https://jordanbourbonnais.com">Alicia Sykes</a> © 2021.<br>
+      {{ $t('app-info.licence-third-party') }} <a href="https://jordanbourbonnais.com/blob/master/.github/LEGAL.md">{{ $t('app-info.licence-third-party-link') }}</a>.<br>
+      {{ $t('app-info.list-contributors') }} <a href="https://jordanbourbonnais.com/blob/master/docs/credits.md">{{ $t('app-info.list-contributors-link') }}</a>.
       <!-- App Version -->
       <h3>{{ $t('app-info.version') }}</h3>
       <AppVersion class="app-version" />

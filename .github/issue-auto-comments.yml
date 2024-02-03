@@ -23,7 +23,7 @@ labels:
           This is a great way to support the project, while also improving your skills, you'll also be credited as a contributor once your PR is merged.
           If you're new to web development, [here are a collection of resources](https://dashy.to/docs/developing#resources-for-beginners)
           to help you get started. You can also find step-by-step tutorials for common tasks within Dashy, on the [Dev Guides](https://dashy.to/docs/development-guides) page.
-          If you need any support at all, feel free to reach out via [GitHub Discussions](https://github.com/Lissy93/dashy/discussions).
+          If you need any support at all, feel free to reach out via [GitHub Discussions](https://jordanbourbonnais.com/discussions).
 
   - name: ❌ wontfix
     labeled:

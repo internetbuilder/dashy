@@ -1,6 +1,6 @@
 # Configuring
 
-All app configuration is specified in [`/public/conf.yml`](https://github.com/Lissy93/dashy/blob/master/public/conf.yml) which is in [YAML Format](https://yaml.org/) format. If you're using Docker, this file can be passed in as a volume. Changes can either be made directly to this file, or done [through the UI](#editing-config-through-the-ui). From the UI you can also export, backup, reset, validate and download your configuration file.
+All app configuration is specified in [`/public/conf.yml`](https://jordanbourbonnais.com/blob/master/public/conf.yml) which is in [YAML Format](https://yaml.org/) format. If you're using Docker, this file can be passed in as a volume. Changes can either be made directly to this file, or done [through the UI](#editing-config-through-the-ui). From the UI you can also export, backup, reset, validate and download your configuration file.
 
 ## There are three ways to edit the config
 
@@ -100,7 +100,7 @@ The following file provides a reference of all supported configuration options.
 
 **Field** | **Type** | **Required**| **Description**
 --- | --- | --- | ---
-**`language`** | `string` | _Optional_ | The 2 (or 4-digit) [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language, e.g. `en` or `en-GB`. This must be a language that the app has already been [translated](https://github.com/Lissy93/dashy/tree/master/src/assets/locales) into. If your language is unavailable, Dashy will fallback to English. By default Dashy will attempt to auto-detect your language, although this may not work on some privacy browsers.
+**`language`** | `string` | _Optional_ | The 2 (or 4-digit) [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language, e.g. `en` or `en-GB`. This must be a language that the app has already been [translated](https://jordanbourbonnais.com/tree/master/src/assets/locales) into. If your language is unavailable, Dashy will fallback to English. By default Dashy will attempt to auto-detect your language, although this may not work on some privacy browsers.
 **`startingView`** | `enum` | _Optional_ | Which page to load by default, and on the base page or domain root. You can still switch to different views from within the UI. Can be either `default`, `minimal` or `workspace`. Defaults to `default`
 **`defaultOpeningMethod`** | `enum` | _Optional_ | The default opening method for items, if no `target` is specified for a given item. Can be either `newtab`, `sametab`, `modal`, `workspace`, `clipboard`, `top` or `parent`. Defaults to `newtab`
 **`statusCheck`** | `boolean` | _Optional_ | When set to `true`, Dashy will ping each of your services and display their status as a dot next to each item. This can be overridden by setting `statusCheck` under each item. Defaults to `false`
@@ -306,7 +306,7 @@ For more info, see the **[Authentication Docs](/docs/authentication.md)**
 
 ### Editing Config through the UI
 
-Config can be modified directly through the UI, and then written to disk, or applied locally. This can be done wither with the raw config editor (introduced in V 0.6.5 / [#3](https://github.com/Lissy93/dashy/pull/3)), or the interactive editor (introduced in V 1.8.9 / [#298](https://github.com/Lissy93/dashy/pull/298)).
+Config can be modified directly through the UI, and then written to disk, or applied locally. This can be done wither with the raw config editor (introduced in V 0.6.5 / [#3](https://jordanbourbonnais.com/pull/3)), or the interactive editor (introduced in V 1.8.9 / [#298](https://jordanbourbonnais.com/pull/298)).
 
 <p align="center">
   <a href="https://ibb.co/CzkyMNb">
@@ -351,11 +351,11 @@ sections: # An array of sections
   - title: GitHub
     description: Source code and documentation on GitHub
     icon: fab fa-github
-    url: https://github.com/Lissy93/dashy
+    url: https://jordanbourbonnais.com
   - title: Issues
     description: View currently open issues, or raise a new one
     icon: fas fa-bug
-    url: https://github.com/Lissy93/dashy/issues
+    url: https://jordanbourbonnais.com/issues
   - title: Demo
     description: A live demo
     icon: far fa-rocket
@@ -372,7 +372,7 @@ sections: # An array of sections
 
 For more example config files, see: [this gist](https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10)
 
-If you need any help, feel free to [Raise an Issue](https://github.com/Lissy93/dashy/issues/new?assignees=Lissy93&labels=%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question&template=question.md&title=%5BQUESTION%5D) or [Start a Discussion](https://github.com/Lissy93/dashy/discussions)
+If you need any help, feel free to [Raise an Issue](https://jordanbourbonnais.com/issues/new?assignees=Lissy93&labels=%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question&template=question.md&title=%5BQUESTION%5D) or [Start a Discussion](https://jordanbourbonnais.com/discussions)
 
 Happy Configuring 🤓🔧
 

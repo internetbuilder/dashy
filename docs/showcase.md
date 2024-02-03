@@ -11,7 +11,7 @@
 
 ## Dipan's Dash
 
-> By [@Dipanghosh](https://github.com/dipanghosh) - [dipan.de](https://dipan.de/) <sup>Re: [#777](https://github.com/Lissy93/dashy/discussions/777)</sup>
+> By [@Dipanghosh](https://github.com/dipanghosh) - [dipan.de](https://dipan.de/) <sup>Re: [#777](https://jordanbourbonnais.com/discussions/777)</sup>
 
 > With the option of embedding iframes, it becomes possible to combine and conquer. I have set up Dashy to include graphs from grafana, and set them so that they update automatically. I also have uptime monitors from uptime Kuma, panels from homeassistant are also possible to be included.<br>
 > Dashy is awesome!
@@ -22,7 +22,7 @@
 
 ## Ratty222
 
-> By [@ratty222](https://github.com/ratty222) <sup>Re: [#384](https://github.com/Lissy93/dashy/discussions/384)</sup>
+> By [@ratty222](https://github.com/ratty222) <sup>Re: [#384](https://jordanbourbonnais.com/discussions/384)</sup>
 
 ![screenshot-ratty222-dashy](https://user-images.githubusercontent.com/1862727/147582551-4c655d37-8bcc-4f95-ab41-164a9d0d6a07.png)
 
@@ -30,7 +30,7 @@
 
 ## Hugalafutro Dashy
 
-> By [@hugalafutro](https://github.com/hugalafutro) <sup>Re: [#505](https://github.com/Lissy93/dashy/discussions/505)</sup>
+> By [@hugalafutro](https://github.com/hugalafutro) <sup>Re: [#505](https://jordanbourbonnais.com/discussions/505)</sup>
 
 [![hugalafutro-dashy-screenshot](https://i.ibb.co/PDpLDKS/hugalafutro-dashy.gif)](https://i.ibb.co/PDpLDKS/hugalafutro-dashy.gif)
 
@@ -38,7 +38,7 @@
 
 ## NAS Home Dashboard
 
-> By [@cerealconyogurt](https://github.com/cerealconyogurt) <sup>Re: [#74](https://github.com/Lissy93/dashy/issues/74)</sup>
+> By [@cerealconyogurt](https://github.com/cerealconyogurt) <sup>Re: [#74](https://jordanbourbonnais.com/issues/74)</sup>
 
 ![screenshot-networking-services](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/showcase/6-nas-home-dashboard.png)
 
@@ -46,7 +46,7 @@
 
 ## Brewhack
 
-> By [@brpeterso](https://github.com/brpeterso) <sup>Re: [#680](https://github.com/Lissy93/dashy/issues/680)</sup>
+> By [@brpeterso](https://github.com/brpeterso) <sup>Re: [#680](https://jordanbourbonnais.com/issues/680)</sup>
 
 ![screenshot-brewhack-dashboard](https://i.ibb.co/cNjzPT4/brewhack.png)
 
@@ -54,7 +54,7 @@
 
 ## The Dragons Lair
 
-> By [dr460nf1r3](https://github.com/dr460nf1r3) <sup>via [#684](https://github.com/Lissy93/dashy/issues/684)</sup>
+> By [dr460nf1r3](https://github.com/dr460nf1r3) <sup>via [#684](https://jordanbourbonnais.com/issues/684)</sup>
 
 > My new startpage featuring the stuff I use most. And of course dragons!
 
@@ -64,7 +64,7 @@
 
 ## Homelab & VPS dashboard
 
-> By [@shadowking001](https://github.com/shadowking001) <sup>Re: [#86](https://github.com/Lissy93/dashy/issues/86)</sup>
+> By [@shadowking001](https://github.com/shadowking001) <sup>Re: [#86](https://jordanbourbonnais.com/issues/86)</sup>
 
 ![screenshot-shadowking001-dashy](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/showcase/8-shadowking001s-dashy.png)
 
@@ -72,7 +72,7 @@
 
 ## Raspberry PI Docker Dashboard
 
-> By [@henkiewie](https://github.com/henkiewie) <sup>Re: [#622](https://github.com/Lissy93/dashy/issues/622)</sup>
+> By [@henkiewie](https://github.com/henkiewie) <sup>Re: [#622](https://jordanbourbonnais.com/issues/622)</sup>
 
 > I use this dashboard every day. It now even includes a player for a radio stream which I configured with Logitech media server and icecast. I made an smaller version of the grafana dashboard to fit an iframe in kiosk mode, so it monitors the most important values of my RPI. The PI is in Argon m2 case and used as a NAS. The dashboard is a copy of the adventure theme with some changes saved in `/app/src/styles/user-defined-themes.scss`
 
@@ -90,7 +90,7 @@
 
 ## EVO Dashboard
 
-> By [@EVOTk](https://github.com/EVOTk) <sup>Re: [#316](https://github.com/Lissy93/dashy/pull/316)</sup>
+> By [@EVOTk](https://github.com/EVOTk) <sup>Re: [#316](https://jordanbourbonnais.com/pull/316)</sup>
 
 ![screenshot-evo-dashboard](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/showcase/12-evo-dashboard.png)
 
@@ -98,7 +98,7 @@
 
 ## The Private Dashboard
 
-> By [@DylanBeMe](https://github.com/DylanBeMe) <sup>Re: [#419](https://github.com/Lissy93/dashy/issues/419)</sup>
+> By [@DylanBeMe](https://github.com/DylanBeMe) <sup>Re: [#419](https://jordanbourbonnais.com/issues/419)</sup>
 
 ![screenshot-private-dashboard](https://i.ibb.co/hKS483T/private-dashboard-Dylan-Be-Me.png)
 
@@ -164,7 +164,7 @@
 
 ## HomeLAb 3.0
 
-> By [@skoogee](https://github.com/skoogee) (<http://zhrn.cc>) <sup>[#279](https://github.com/Lissy93/dashy/issues/279)</sup>
+> By [@skoogee](https://github.com/skoogee) (<http://zhrn.cc>) <sup>[#279](https://jordanbourbonnais.com/issues/279)</sup>
 
 > Dashy, is the most complete dashboard I ever tried, has all the features, and it sets itself apart from the rest. It is my default homepage now. I am thankful to the developer @Lissy93 for sharing such a wonderful creation.
 
@@ -174,7 +174,7 @@
 
 ## Ground Control
 
-> By [@dtctek](https://github.com/dtctek) <sup>Re: [#83](https://github.com/Lissy93/dashy/issues/83)</sup>
+> By [@dtctek](https://github.com/dtctek) <sup>Re: [#83](https://jordanbourbonnais.com/issues/83)</sup>
 
 ![screenshot-ground-control](https://user-images.githubusercontent.com/1862727/149821995-e9b41dab-186c-42e6-b5b3-e233259b241d.png)
 
@@ -223,7 +223,7 @@
 ### How to Submit
 
 - [Open an Issue](https://git.io/JEtgM)
-- [Open a PR](https://github.com/Lissy93/dashy/compare)
+- [Open a PR](https://jordanbourbonnais.com/compare)
 
 ### What to Include
 
