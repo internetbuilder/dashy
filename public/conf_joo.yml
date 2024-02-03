@@ -1,0 +1,146 @@
+pageInfo:
+  title: Dashboard
+  description: My dashboard!!
+  navLinks:
+    - title: Edit
+      path: https://vscode.dev/github.com/internetbuilder/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+appConfig:
+  theme: colorful
+  statusCheck: true
+  statusCheckInterval: 20
+  language: fr
+  startingView: default
+  defaultOpeningMethod: newtab
+  faviconApi: allesedv
+  layout: auto
+  iconSize: medium
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: true
+    searchEngine: duckduckgo
+    openingMethod: modal
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: false
+    hideFooter: false
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableKeycloak: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  disableConfigurationForNonAdmin: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
+sections:
+  - name: Hosting
+    icon: fas fa-rocket
+    items:
+      - &ref_0
+        title: ultahost panel
+        description: ultahost
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://bill.ultahost.com/clientarea.php
+        target: newtab
+        statusCheck: true
+        id: 0_732_ultahostpanel
+      - &ref_1
+        title: vps cyberpanel
+        description: vps ultahost cyberpanel
+        icon: fas fa-rocket
+        url: https://198.44.140.37:8090/
+        statusCheck: true
+        id: 1_732_vpscyberpanel
+      - &ref_2
+        title: vps phpmyadmin
+        description: vps ultahost cyberpanel phpmyadmin
+        icon: fas fa-rocket
+        url: https://198.44.140.37:8090/dataBases/phpMyAdmin
+        statusCheck: true
+        id: 2_732_vpsphpmyadmin
+      - &ref_3
+        title: share hosting
+        description: share hosting ultahost
+        icon: fas fa-rocket
+        url: https://cp2.ultahost.com:2083/
+        statusCheck: true
+        id: 3_732_sharehosting
+      - &ref_4
+        title: vps congero
+        description: cloudron vps congero
+        icon: fas fa-rocket
+        url: https://my.istacks.org
+        statusCheck: true
+        id: 4_732_vpscongero
+      - &ref_5
+        title: ishosting panel
+        description: ishosting panel
+        icon: fas fa-rocket
+        url: https://my.ishosting.com/
+        statusCheck: true
+        id: 5_732_ishostingpanel
+      - &ref_6
+        title: lightnode panel
+        description: console lightnode.com hosting
+        icon: fas fa-rocket
+        url: https://console.lightnode.com/user/login
+        target: modal
+        statusCheck: true
+        id: 6_732_lightnodepanel
+      - &ref_7
+        title: xxx
+        description: xxx
+        icon: fas fa-rocket
+        url: https://xxx.xxx
+        id: 7_732_xxx
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+      - *ref_5
+      - *ref_6
+      - *ref_7
+  - name: My Domains
+    icon: fas fa-rocket
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_8
+        title: w3layers.com
+        icon: fas fa-rocket
+        url: https://w3layers.com
+        target: modal
+        statusCheck: true
+        id: 0_945_wlayerscom
+      - &ref_9
+        title: w3layers.com/admin
+        description: w3layers.com admin
+        icon: fas fa-rocket
+        url: https://w3layers.com/admin
+        target: modal
+        statusCheck: true
+        id: 1_945_admin
+    filteredItems:
+      - *ref_8
+      - *ref_9
