@@ -17,14 +17,14 @@ appConfig:
   theme: dashy-docs
   customCss: '@media (min-width: 1780px) { .home .item-group-container:not(.item-size-large) { grid-template-columns: repeat(3, 1fr); } } .home .item-group-container.item-size-large .item-group-grid, .home .item-group-container.orientation-vertical .item-group-grid { display: flex !important; }'
   auth:
-    enableGuestAccess: true
+    enableGuestAccess: false
     users:
-    - user: alicia
-      hash: 4D1E58C90B3B94BCAD9848ECCACD6D2A8C9FBC5CA913304BBA5CDEAB36FEEFA3
+    - user: admin
+      hash: $2y$12$4yU9lmbX8PUukzmVl2TL0OQxNtSvXLTuzNckVU5HdHXuvUv2bm6gK
       type: admin
   webSearch:
     searchEngine: 'duckduckgo'
-    openingMethod: 'newtab'
+    openingMethod: 'modal'
   enableErrorReporting: true
   allowConfigEdit: false
   enableFontAwesome: true
